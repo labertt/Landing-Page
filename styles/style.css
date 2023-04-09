@@ -29,6 +29,17 @@ a:hover {
     transition: 0.3s all;
 }
 
+.conta-btn {
+    border: 2px solid #5E17EB;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.conta-btn:hover {
+    background-color: #5E17EB;
+    color: aliceblue;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -62,4 +73,34 @@ article {
 
 img {
     width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.submit-btn {
+    width: 50%;
+    height: 50px;
+    background-color: #5E17EB;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
 }
